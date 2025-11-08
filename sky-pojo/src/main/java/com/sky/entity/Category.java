@@ -18,13 +18,13 @@ public class Category implements Serializable {
     private Long id;
 
     //类型: 1菜品分类 2套餐分类
-    private Integer type;
+    private Integer type;  //数据库填入
 
     //分类名称
-    private String name;
+    private String name;  //数据库填入
 
     //顺序
-    private Integer sort;
+    private Integer sort;  //数据库填入
 
     //分类状态 0标识禁用 1表示启用
     private Integer status;
